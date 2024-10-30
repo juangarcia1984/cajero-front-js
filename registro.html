@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="container">
+        <header class="nav-home">
+            <nav>
+                <img src="./assets/imagen-logo-cajero.png" alt="imagen-logo" class="img-logo">
+                <ul>
+                    <li>Register</li>
+                    <li>Transactions</li>
+                    <li>Log in</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-home">
+            <form class="form"  id="form-registro">
+                <h3>Register ATM</h3>
+                <label for="name" class="label">Enter your Name</label>
+                <input type="text" id="name" placeholder="Full Name">
+                <label for="email" class="label">Enter yor Email</label>
+                <input type="email" id="email" placeholder="Email">
+                <label for="count" class="label">Account Type</label>
+                <select name="count" id="count">
+                <option value="savings">Savingns Account</option>
+                <option value="current">Current Account</option>
+                </select>
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" placeholder="******">
+                <button type="submit">Register</button>
+                <p id="resultado"></p>
+            </form>
+            
+        </main>
+        <footer class="footer-home">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur, illum velit hic doloremque sequi eum beatae nobis distinctio culpa itaque, reiciendis esse commodi facilis ducimus quisquam aperiam harum iusto?
+        </footer>
+    </section>
+    
+    <script src="./js/registro.js"></script>
+</body>
+</html>
