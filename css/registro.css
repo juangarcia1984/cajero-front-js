@@ -12,34 +12,6 @@ body {
     height: 100vh; /* Altura completa de la vista */
 }
 
-/* Estilos del header */
-.nav-home {
-    background-color: #007bff; /* Azul */
-    color: white;
-    padding: 10px 20px; /* Espaciado */
-}
-
-.nav-home nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.img-logo {
-    height: 50px; /* Altura del logo */
-}
-
-/* Lista de navegación */
-.nav-home ul {
-    list-style: none;
-    display: flex;
-    gap: 20px; /* Espaciado entre elementos de la lista */
-}
-
-.nav-home li {
-    cursor: pointer;
-}
-
 /* Estilos del main */
 .main-home {
     display: grid;
@@ -123,39 +95,3 @@ select {
         width: 100%; /* Botón de ancho completo */
     }
 }
-
-.login-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 2rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-.btn-primary {
-    background-color: #4c89fb;
-    border-color: #4c89fb;
-}
-.btn-primary:hover {
-    background-color: #3a6ed8;
-    border-color: #3a6ed8;
-}
-.btn-secondary {
-    background-color: #fb4c4c;
-    border-color: #fb4c4c;
-}
-.btn-secondary:hover {
-    background-color: #d83a3a;
-    border-color: #d83a3a;
-}
-.register-link {
-    text-align: center;
-    display: block;
-    margin-top: 1rem;
-}
-
-
